@@ -12,6 +12,13 @@ public class C04_BaskaObjelerleKarsilastirma {
 
         //StringBuilder'da equals methodu yerine compareTo() kullanilir.
         System.out.println(sb1.compareTo(sb2)); // 0 , eger ayni ise 0 verir
+
+        //System.out.println(sb1==str); buna izin vermez
+        System.out.println(sb1.equals(str)); // itiraz etmez ama her zaman false döner,
+
+        //equals sadece obejenin kendisi ile karsilastirildigi durumda TRUE döner
+
+        System.out.println(sb1.equals(sb1)); // True
     }
 
 }
