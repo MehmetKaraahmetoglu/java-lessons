@@ -1,4 +1,4 @@
-package day_34_inheritance;
+package day34_inheritance;
 
 public class HRunner {
     public static void main(String[] args) {
@@ -18,5 +18,7 @@ public class HRunner {
 
         //hayvanlar clasiindan aldigi ozellikler
         avciKusKartal.omur(); //yasar ve olurler
+
+
     }
 }

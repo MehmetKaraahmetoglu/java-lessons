@@ -1,6 +1,10 @@
-package day_34_inheritance;
+package day35_inheritance;
 
-public class BToyota extends Araba{
+public class BToyota extends Araba {
+
+    BToyota(){
+        System.out.println("Toyota parametresiz constructor calisti");
+    }
 
     //parents classda'ki bazi ozellikleri update edebiliriz.
     String marka = "Toyota";
@@ -11,6 +15,7 @@ public class BToyota extends Araba{
     String lastik = "Tum toyota araclar Pirelli lastik kullanir.";
     String guvenlik ="Tum toyota araclar extra guvenlik icerir.";
     String fren ="Toyota araclar ABS fren sistemi kullanir.";
+
 
 
 }

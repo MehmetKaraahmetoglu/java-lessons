@@ -1,4 +1,4 @@
-package day_34_inheritance;
+package day34_inheritance;
 
 public class DRunner {
     public static void main(String[] args) {
