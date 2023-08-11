@@ -40,6 +40,9 @@ public class HMethodRunner {
         hayvanKartal.solunum(); // F Akciger
         hayvanKartal.cogalma(); // F Yumurtayla
         hayvanKartal.omur(); // E yasar ve olurler
+
+        //Yandaki oklar güncel neredeyse onu gösterir.
+        //icindeki o harfi ise overriding yani gecersiz kilindigini gösterir
     }
 
 }
