@@ -29,14 +29,20 @@ public class DVariableRunner {
         System.out.println(hayvanKartal.solunum); // A nefes alir
         System.out.println(hayvanKartal.cogalma); // A Cogalir
         System.out.println(hayvanKartal.omur); // A yasar ve olur
+
+
     }
     /*
         Java'da en klasik obje olusturma yontemi
         ClassAdi  obj = new ClassAdi();
         ama Child class'in constructor'i kullanilarak olusturulan objeler icin
         data turu Parent class'lar olarak secilebilir
+
+        ONEMLI:
         Eger constructor ve data turu farkli ise
         objenin ozelliklerini aramaya DATA TURU olan class'dan baslanir
+
+        ONEMLI:
         EGER ozellikler variable olarak olusturuldu ise
         objenin ozelliklerini DATA TURU belirler
      */
