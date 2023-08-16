@@ -11,7 +11,6 @@ public class C_MecburiOlmayanParent {
     public void method3(){
         System.out.println("parent method 3");
     }
-    public void method4(){
-        System.out.println("parent method 4");
+    public void method4(){ System.out.println("parent method 4");
     }
 }
