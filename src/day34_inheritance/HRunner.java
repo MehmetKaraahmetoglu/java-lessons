@@ -20,5 +20,10 @@ public class HRunner {
         avciKusKartal.omur(); //yasar ve olurler
 
 
+
+
+
+
+
     }
 }

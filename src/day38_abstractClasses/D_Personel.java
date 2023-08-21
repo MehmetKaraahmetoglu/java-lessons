@@ -8,4 +8,5 @@ public abstract class D_Personel {
     public void ozelSigorta(){
         System.out.println("Tüm personel katki payi ile ozel sigorta yaptirabilir.");
     }
+    public abstract void genel();
 }

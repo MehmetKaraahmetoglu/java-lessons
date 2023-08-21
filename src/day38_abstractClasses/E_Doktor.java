@@ -16,8 +16,15 @@ public class E_Doktor extends D_Personel{
         System.out.println("Doktorlarin yillik 1 ay izni olur.");
     }
 
+
     @Override
     public void ozelSigorta() { //Bu methodu yukarda code icinden kendimiz getrdik. Mecburi olmasi gereken method degildir.
         System.out.println("Doktorlar 1000 TL katki payi ile full güvenlik sigortasi yaptirabilir.");
+    }
+
+
+    @Override
+    public void genel() {
+
     }
 }

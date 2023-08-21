@@ -14,6 +14,11 @@ public abstract class F_Hemsire extends D_Personel {
     public abstract void nobet();
 
     @Override
+    public void genel() {
+        System.out.println("Deneme icin yaptim.");
+    }
+
+    @Override
     public void standartMaas() {
         System.out.println("Tüm hemsireler icin standart maas 20.000 TL.");
     }

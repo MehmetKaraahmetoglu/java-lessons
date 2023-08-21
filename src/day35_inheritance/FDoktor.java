@@ -23,6 +23,7 @@ public class FDoktor extends EMuhasebe{
         System.out.println("------------------------");
 
         FDoktor doktor2 = new FDoktor();
+
         //Parametresiz hastane constructor'i calisti
         //String Parametreli Muhasebe constructor'i calisti
         //int Parametreli Muhasebe constructor'i calisti
@@ -30,6 +31,7 @@ public class FDoktor extends EMuhasebe{
         System.out.println("-------------------------");
 
         FDoktor doktor3 = new FDoktor(5);
+
         //Parametresiz hastane constructor'i calisti
         //String Parametreli Muhasebe constructor'i calisti
         //int Parametreli Muhasebe constructor'i calisti

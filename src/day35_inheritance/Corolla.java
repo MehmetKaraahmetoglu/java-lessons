@@ -8,12 +8,13 @@ public class Corolla extends BToyota {
     }
 
     Corolla(String str){
+        System.out.println("Corolla parametreli constructor calisti.");
        // görünmeyen super(); var
        // Javanin koydugu ve görünür olmayan
         // Constructor call HER ZAMAN parametresiz olan
         // super(); 'dur
         //Kodu yazan kisiler isterlerse ilk satira baska
-        // Construcot call yazabilirler.
+        // Constructor call yazabilirler.
         // eger ilk satirda görünür bir constructor call varsa
         // java default olarak koydugu super constructor call'i siler.
 
@@ -25,9 +26,10 @@ public class Corolla extends BToyota {
 
     public static void main(String[] args) {
 
-        Corolla corolla = new Corolla();
+        //Corolla corolla = new Corolla();
 
         Corolla corolla1 = new Corolla("Kirmizi");
+
 
         //Bir objenin bir class'da olusturulan özelliklere ulasmasi ve
         //o classta atanan ilk degerlere sahip olmasi icin
