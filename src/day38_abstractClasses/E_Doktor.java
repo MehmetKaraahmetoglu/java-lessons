@@ -1,10 +1,10 @@
 package day38_abstractClasses;
 
-public class E_Doktor extends D_Personel{
-    @Override
-    public void standartMaas() {
-        System.out.println("Doktorlar icin standart maas 30.000 TL");
-    }
+public class E_Doktor extends D_Personel {
+   @Override
+   public void standartMaas() {
+       System.out.println("Doktorlar icin standart maas 30.000 TL");
+   }
 
     @Override
     public void mesai() {

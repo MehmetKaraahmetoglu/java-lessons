@@ -2,7 +2,6 @@ package day38_abstractClasses;
 
 public class B_Child extends A_KuralciParent{
 
-
     @Override
     public void method3() {
 
