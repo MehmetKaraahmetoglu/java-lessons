@@ -39,6 +39,8 @@ public class C03_ArraydenTekrarEdenleriSilme {
         //Arrayi set deki elementlerden olusan hale donusturelim
 
         arr=new int[tekrarsizSet.size()];
+        System.out.println(Arrays.toString(arr)); //[0, 0, 0, 0, 0, 0, 0]
+
         int index = 0;
         for (Integer each : tekrarsizSet
              ) {

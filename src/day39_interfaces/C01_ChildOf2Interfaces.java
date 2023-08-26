@@ -39,5 +39,6 @@ public class C01_ChildOf2Interfaces extends AParent implements I01_Interfaces,I0
 
         System.out.println(sayi2);// 20
         System.out.println(I01_Interfaces.sayi4); // 40
+
     }
 }
